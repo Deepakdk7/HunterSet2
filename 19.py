@@ -7,4 +7,6 @@ for i in range(0,n):
 c=set(a[0])
 for i in a:
     c=c & set(i)
-print(*c)
+d=list(c)
+d.sort()
+print(*d)
